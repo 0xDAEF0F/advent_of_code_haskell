@@ -27,6 +27,8 @@ library
                     ,RockPaperScissorsTwo
                     ,RucksackReorganizationA
                     ,RucksackReorganizationB
+                    ,CampCleanupA
+                    ,CampCleanupB
 
     -- Modules included in this library but not exported.
     -- other-modules:

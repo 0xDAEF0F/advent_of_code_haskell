@@ -5,10 +5,12 @@ import qualified RockPaperScissors (fight)
 import qualified RockPaperScissorsTwo (fight)
 import qualified RucksackReorganizationA (getSumOfPriorities)
 import qualified RucksackReorganizationB (solution)
+import qualified CampCleanupA (solution)
+import qualified CampCleanupB (solution)
 import System.IO ()
 
 main :: IO ()
 main = do
-  content <- readFile "input-day-three.txt"
-  let sum = RucksackReorganizationB.solution content
+  content <- readFile "input-day-4.txt"
+  let sum = CampCleanupB.solution content
   print sum
